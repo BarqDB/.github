@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">BarqDB mark</title>
+  <desc id="desc">A square BarqDB logo mark.</desc>
+  <rect width="512" height="512" rx="112" fill="#08111f"/>
+  <path d="M72 374 C150 320 222 408 306 352 C382 301 404 219 512 237 L512 512 L72 512 Z" fill="#12312c"/>
+  <circle cx="238" cy="226" r="112" fill="#23c483"/>
+  <circle cx="238" cy="226" r="68" fill="#08111f"/>
+  <path d="M318 306 L397 385" stroke="#f7c948" stroke-width="44" stroke-linecap="round"/>
+  <circle cx="238" cy="226" r="28" fill="#f8fafc"/>
+</svg>
