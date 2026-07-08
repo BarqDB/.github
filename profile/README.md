@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="./assets/barqdb-banner.svg" alt="BarqDB - local-first database tools" width="100%">
+  <img src="./assets/barqdb-banner.png" alt="BarqDB - local-first database tools" width="100%">
 </p>
 
 # BarqDB
 
-BarqDB is a local-first database stack for apps that need fast offline data and optional sync.
+BarqDB is a local-first database stack for apps that need fast offline data and real-time sync.
 
 The project includes SDKs for JavaScript, React Native, Kotlin, and C++, powered by a shared native core.
 
@@ -37,7 +37,7 @@ BarqDB is under active development. APIs may change while the SDKs stabilize.
 
 - Fast local reads and writes
 - Offline-first app data
-- Optional sync through barq-core
+- Real-time sync through barq-core
 - SDKs that feel native in each platform
 
 ## License
