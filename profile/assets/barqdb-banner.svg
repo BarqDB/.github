@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">BarqDB</title>
+  <desc id="desc">A BarqDB banner for local-first database tools.</desc>
+  <rect width="1200" height="360" rx="32" fill="#08111f"/>
+  <path d="M0 278 C180 236 260 314 420 272 C582 229 650 153 820 181 C972 206 1030 292 1200 236 L1200 360 L0 360 Z" fill="#12312c"/>
+  <path d="M0 306 C174 255 292 333 457 296 C608 262 695 200 830 219 C989 242 1058 315 1200 273 L1200 360 L0 360 Z" fill="#0e4638"/>
+  <circle cx="130" cy="108" r="46" fill="#23c483"/>
+  <circle cx="130" cy="108" r="28" fill="#08111f"/>
+  <path d="M164 142 L200 178" stroke="#f7c948" stroke-width="18" stroke-linecap="round"/>
+  <text x="240" y="118" fill="#f8fafc" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="72" font-weight="800">BarqDB</text>
+  <text x="244" y="164" fill="#a8b3c7" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="27" font-weight="500">local-first database tools for apps that work offline</text>
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24" font-weight="700">
+    <rect x="248" y="224" width="128" height="58" rx="14" fill="#10233a" stroke="#2a4568"/>
+    <text x="286" y="262" fill="#f8fafc">JS</text>
+    <rect x="404" y="224" width="128" height="58" rx="14" fill="#10233a" stroke="#2a4568"/>
+    <text x="438" y="262" fill="#f8fafc">Kotlin</text>
+    <rect x="560" y="224" width="128" height="58" rx="14" fill="#10233a" stroke="#2a4568"/>
+    <text x="595" y="262" fill="#f8fafc">C++</text>
+    <rect x="716" y="224" width="128" height="58" rx="14" fill="#153528" stroke="#23c483"/>
+    <text x="750" y="262" fill="#f8fafc">Core</text>
+    <rect x="872" y="224" width="128" height="58" rx="14" fill="#3b3012" stroke="#f7c948"/>
+    <text x="906" y="262" fill="#f8fafc">Sync</text>
+  </g>
+  <path d="M376 253 H404 M532 253 H560 M688 253 H716 M844 253 H872" stroke="#63819f" stroke-width="4" stroke-linecap="round"/>
+</svg>
