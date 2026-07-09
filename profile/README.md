@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BarqDB/.github/main/profile/assets/barqdb-banner.png" alt="BarqDB" width="100%">
+  <img src="https://static.barqdb.space/github/barqdb-banner.png" alt="BarqDB" width="100%">
 </p>
 
 <p align="center">
@@ -34,18 +34,6 @@ BarqDB is an open-source fork of [Realm](https://github.com/realm), continued un
 | [barq-kotlin](https://github.com/BarqDB/barq-kotlin) | Kotlin Multiplatform — Android, iOS, JVM | [`io.github.barqdb.kotlin`](https://central.sonatype.com/namespace/io.github.barqdb.kotlin) |
 | [barq-native](https://github.com/BarqDB/barq-native) | C++ | Source |
 | [barq-core](https://github.com/BarqDB/barq-core) | Native core and sync engine | Source |
-
-## Quick start
-
-```sh
-npm install @barqdb/barq
-```
-
-```ts
-import { Barq } from "@barqdb/barq";
-
-const barq = await Barq.open({ schema: [Task] });
-```
 
 ## Status
 
