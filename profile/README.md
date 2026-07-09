@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/barqdb-banner.png" alt="BarqDB - local-first database tools" width="100%">
+  <img src="https://raw.githubusercontent.com/BarqDB/.github/main/profile/assets/barqdb-banner.png" alt="BarqDB - local-first database tools" width="100%">
 </p>
 
 # BarqDB
