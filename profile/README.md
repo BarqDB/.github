@@ -1,25 +1,41 @@
-# WIP - All projects are being rebranded and refactored
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BarqDB/.github/main/profile/assets/barqdb-banner.png" alt="BarqDB - local-first database tools" width="100%">
+  <img src="https://raw.githubusercontent.com/BarqDB/.github/main/profile/assets/barqdb-banner.png" alt="BarqDB" width="100%">
 </p>
 
-# BarqDB
+<p align="center">
+  <strong>Local-first database stack for fast offline data and real-time sync.</strong>
+</p>
 
-BarqDB is a local-first database stack for apps that need fast offline data and real-time sync.
+<p align="center">
+  <a href="https://www.barqdb.space">Website</a> &nbsp;·&nbsp;
+  <a href="https://www.npmjs.com/package/@barqdb/barq">npm</a> &nbsp;·&nbsp;
+  <a href="https://central.sonatype.com/namespace/io.github.barqdb.kotlin">Maven Central</a>
+</p>
 
-The project includes SDKs for JavaScript, React Native, Kotlin, and C++, powered by a shared native core.
+<p align="center">
+  <a href="https://www.npmjs.com/package/@barqdb/barq"><img src="https://img.shields.io/npm/v/@barqdb/barq?label=npm&color=CB3837&logo=npm" alt="npm version"></a>
+  <a href="https://central.sonatype.com/namespace/io.github.barqdb.kotlin"><img src="https://img.shields.io/maven-central/v/io.github.barqdb.kotlin/library-base?label=maven%20central&color=blue" alt="Maven Central version"></a>
+  <img src="https://img.shields.io/badge/license-Apache--2.0-blue" alt="License Apache-2.0">
+</p>
 
-## What We Build
+---
 
-| Repository | Purpose |
-| --- | --- |
-| [barq-js](https://github.com/BarqDB/barq-js) | JavaScript and React Native SDK |
-| [barq-kotlin](https://github.com/BarqDB/barq-kotlin) | Kotlin Multiplatform SDK |
-| [barq-core](https://github.com/BarqDB/barq-core) | Native database core and sync foundation |
-| [barq-native](https://github.com/BarqDB/barq-native) | C++ SDK built on barq-core |
+## About
 
-## Quick Start
+BarqDB is a local-first database for apps that need fast offline reads and writes with real-time sync. A shared native core handles storage, queries, and sync, and idiomatic SDKs bring it to JavaScript, React Native, Kotlin, and C++.
+
+BarqDB is an open-source fork of [Realm](https://github.com/realm), continued under the Apache-2.0 license.
+
+## SDKs
+
+| Repository | Platform | Package |
+| --- | --- | --- |
+| [barq-js](https://github.com/BarqDB/barq-js) | JavaScript, React Native | [`@barqdb/barq`](https://www.npmjs.com/package/@barqdb/barq) |
+| [barq-kotlin](https://github.com/BarqDB/barq-kotlin) | Kotlin Multiplatform — Android, iOS, JVM | [`io.github.barqdb.kotlin`](https://central.sonatype.com/namespace/io.github.barqdb.kotlin) |
+| [barq-native](https://github.com/BarqDB/barq-native) | C++ | Source |
+| [barq-core](https://github.com/BarqDB/barq-core) | Native core and sync engine | Source |
+
+## Quick start
 
 ```sh
 npm install @barqdb/barq
@@ -31,17 +47,14 @@ import { Barq } from "@barqdb/barq";
 const barq = await Barq.open({ schema: [Task] });
 ```
 
-## Project Status
+## Status
 
 BarqDB is under active development. APIs may change while the SDKs stabilize.
 
-## Focus
+## Contributing
 
-- Fast local reads and writes
-- Offline-first app data
-- Real-time sync through barq-core
-- SDKs that feel native in each platform
+Issues and pull requests are welcome. Please read our [Contributing guide](https://github.com/BarqDB/.github/blob/main/CONTRIBUTING.md), [Code of Conduct](https://github.com/BarqDB/.github/blob/main/CODE_OF_CONDUCT.md), and [Security Policy](https://github.com/BarqDB/.github/blob/main/SECURITY.md).
 
 ## License
 
-BarqDB projects are licensed under Apache-2.0 unless a repository says otherwise.
+BarqDB is licensed under [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0). As a fork of Realm, BarqDB retains the original copyright and license notices required by that license.
