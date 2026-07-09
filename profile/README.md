@@ -1,3 +1,5 @@
+# WIP - All projects are being rebranded and refactored
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/BarqDB/.github/main/profile/assets/barqdb-banner.png" alt="BarqDB - local-first database tools" width="100%">
 </p>
