@@ -22,7 +22,7 @@
 
 ## About
 
-BarqDB is a local-first database for apps that need fast offline reads and writes with real-time sync. A shared native core handles storage, queries, and sync, and idiomatic SDKs bring it to JavaScript, React Native, Kotlin, and C++.
+BarqDB is a local-first database for apps that need fast offline reads and writes with real-time sync. A shared native core handles storage, queries, and sync, and idiomatic SDKs bring it to JavaScript, React Native, Kotlin, C++, Swift, and Go.
 
 BarqDB is an open-source fork of [Realm](https://github.com/realm), continued under the Apache-2.0 license.
 
@@ -33,6 +33,8 @@ BarqDB is an open-source fork of [Realm](https://github.com/realm), continued un
 | [barq-js](https://github.com/BarqDB/barq-js) | JavaScript, React Native | [`@barqdb/barq`](https://www.npmjs.com/package/@barqdb/barq) |
 | [barq-kotlin](https://github.com/BarqDB/barq-kotlin) | Kotlin Multiplatform — Android, iOS, JVM | [`io.github.barqdb.kotlin`](https://central.sonatype.com/namespace/io.github.barqdb.kotlin) |
 | [barq-native](https://github.com/BarqDB/barq-native) | C++ | Source |
+| [barq-swift](https://github.com/BarqDB/barq-swift) | Swift — iOS, macOS | SwiftPM |
+| [barq-go](https://github.com/BarqDB/barq-go) | Go | Source |
 | [barq-core](https://github.com/BarqDB/barq-core) | Native core and sync engine | Source |
 
 ## Status
